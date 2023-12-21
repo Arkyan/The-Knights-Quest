@@ -1,0 +1,48 @@
+| --> Dialogue
+*** --> Action dans le jeu
+$$$ --> Action dans le code
+
+
+Un noir =  En haut Armurerie (Armurier)
+Un pretre = Entrée ( accueil le chevalier, perso principal ) 
+Un villageois = dans sa chambre à droite de l'entrée 
+Un chasseur = chambre droite milieu
+
+LE CHEVALIER = Godefroy Lévesque 
+
+
+Quête n°1 : L'accueil / L'arrivée
+	---------------------------------------------------------
+	***GL accueilli par le prêtre à l'entrée du chateau 	
+	---------------------------------------------------------
+	|Pretre : "Alors qui êtes-vous étranger ?"
+	|GL : "Je m'appelle Godefroy Lévesque et je viens d'une contrée lointaine, d'un autre royaume"
+	|Pretre : "Mais alors pourquoi êtes-ici ?" 
+	|GL : "J'ai été rejeté par mon ancien seigneur pour des raisons que soi-disant je ne dois pas connaître"
+	|Pretre : "Alors vous pourrez commencez par allez enlever votre armure au niveau de l'armurerie, elle se trouve dans la tour Nord-Est du château"
+	---------------------------------------------------------
+	***GL va à l'armurerie pour enlever son armure
+	---------------------------------------------------------
+	***GL arrive devant l'armurie et est accueilli par l'armurier (LE NOIR)
+	---------------------------------------------------------
+	|Armurier : "Bonjour j'ai cru comprendre que vous êtes nouveau ici, mais avant de vous aider à retirer votre armure je vous demande d'aller me chercher un peu de charbon, il se trouve à l'ouest du château"
+	|GL : "D'accord je vais vous chercher ça"
+	---------------------------------------------------------
+	***GL va donc chercher le charbon que lui a demandé l'armurier et reviens vers celui-ci
+	---------------------------------------------------------
+	|GL : "Voici le charbon que vous m'aviez demandé, ce n'était pas très pratique a transporté en armure"
+	|Armurier: "Merci bien pour ça, je vais maintenant vous aidez à retirer votre armure, je vous la restorerai pour dans un petit moment"
+	---------------------------------------------------------
+	*** GL enlève son armure
+	$$$ Passage au personnage sans armure 
+	---------------------------------------------------------
+	|GL : "Merci de m'avoir aidé, on se reverra sûrement, au-revoir"
+	|Armurier: "Au-revoir et bonne journée à vous"
+	---------------------------------------------------------
+
+Quête n°2 :
+	---------------------------------------------------------
+	***GL reva voir le prêtre
+	---------------------------------------------------------
+	|Pretre : "Alors on se sent plus léger sans cet amas de métal sur le dos, je voulais te demander as-tu, si je peux te tutoyer, été initié à l'arc ?"
+	|GL	 

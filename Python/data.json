@@ -1,0 +1,69 @@
+{
+    "quetes": [
+        {
+            "id": 1,
+            "id_collision": 6,
+            "dialogue": [
+                "Alors....",
+                "Je m'apell...."
+            ]
+        },
+        {
+            "id": 2,
+            "id_collision": false,
+            "title": "titre",
+            "description": "desc"
+        }
+    ],
+    "collisions": [
+        {
+            "id": 1,
+            "x1": 900,
+            "y1": 445,
+            "x2": 905,
+            "y2": 1000,
+            "color": "red"
+        },
+        {
+            "id": 2,
+            "x1": 1070,
+            "y1": 445,
+            "x2": 1075,
+            "y2": 1000,
+            "color": "red"
+        },
+        {
+            "id": 3,
+            "x1": 900,
+            "y1": 970,
+            "x2": 1075,
+            "y2": 975,
+            "color": "red"
+        },
+        {
+            "id": 4,
+            "x1": 1075,
+            "y1": 435,
+            "x2": 1185,
+            "y2": 440,
+            "color": "red"
+        },
+        {
+            "id": 5,
+            "x1": 825,
+            "y1": 435,
+            "x2": 900,
+            "y2": 440,
+            "color": "red"
+        },
+        {
+            "id": 6,
+            "x1": 840,
+            "y1": 250,
+            "x2": 875,
+            "y2": 310,
+            "color": "green"
+        }
+    ],
+    "playtime": 73
+}
