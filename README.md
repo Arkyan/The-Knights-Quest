@@ -11,7 +11,7 @@ Assurez-vous d'avoir Python installé sur votre machine. Vous pouvez le téléch
 1. Clonez le repository :
 
 ```bash
-git clone https://github.com/votre-utilisateur/The-Knights-Quest.git
+git clone https://github.com/Arkyan/The-Knights-Quest.git
 ```
 
 2. Accédez au répertoire du projet :
