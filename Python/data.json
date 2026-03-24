@@ -2,68 +2,272 @@
     "quetes": [
         {
             "id": 1,
-            "id_collision": 6,
+            "id_collision": 1,
+            "title": "Rencontre avec le Sage",
+            "description": "Parler au sage dans la tour nord du château",
+            "speaker": "Le Sage",
             "dialogue": [
-                "Alors....",
-                "Je m'apelle...."
+                "Ah... enfin tu arrives, jeune chevalier.",
+                "Je t'attendais depuis bien longtemps.",
+                "Le royaume est en danger. Une ombre noire s'étend sur nos terres.",
+                "Tu dois retrouver les trois fragments de l'épée légendaire.",
+                "Commence par explorer les environs du château. Sois prudent."
             ]
         },
         {
             "id": 2,
             "id_collision": false,
-            "title": "titre",
-            "description": "desc"
+            "title": "Les Fragments de l'Épée",
+            "description": "Retrouver les trois fragments de l'épée légendaire"
+        },
+        {
+            "id": 3,
+            "id_collision": 14,
+            "title": "La Sentinelle",
+            "description": "Parler au garde se reposant dans sa chambre",
+            "speaker": "Garde",
+            "dialogue": [
+                "Halte ! Qui va là ?",
+                "Ah... c'est toi, le nouveau chevalier. Le roi t'attendait.",
+                "Le Capitaine est au nord du château. Il a des ordres urgents pour toi.",
+                "Et méfie-toi des ruelles sombres... des ombres rôdent."
+            ]
+        },
+        {
+            "id": 4,
+            "id_collision": 23,
+            "title": "La Forge du Destin",
+            "description": "Interroger le forgeron sur les fragments de l'épée",
+            "speaker": "Le Forgeron",
+            "dialogue": [
+                "Bienvenue dans ma forge, jeune chevalier.",
+                "J'ai entendu dire que tu cherches les fragments de l'épée du roi Aldric.",
+                "Je les ai forgés moi-même, il y a bien longtemps...",
+                "Le premier fragment se trouverait dans les ruines à l'est.",
+                "Si jamais tu le retrouves, reviens me voir. Je saurai le reconnaître."
+            ]
+        },
+        {
+            "id": 5,
+            "id_collision": 22,
+            "title": "Rumeurs et Secrets",
+            "description": "Écouter ce que le marchand a à dire",
+            "speaker": "Le Marchand",
+            "dialogue": [
+                "Psst ! Par ici, chevalier...",
+                "J'ai des informations qui pourraient t'intéresser.",
+                "Un voyageur m'a parlé d'un fragment caché dans une crypte ancienne.",
+                "Il paraît qu'une inscription sur les murs indique le chemin.",
+                "Je ne garantis rien... mais les voyageurs savent des choses, parfois."
+            ]
+        },
+        {
+            "id": 6,
+            "id_collision": false,
+            "title": "Les Ordres du Capitaine",
+            "description": "Recevoir ta mission du Capitaine de la garde",
+            "speaker": "Capitaine Valdric",
+            "dialogue": [
+                "Chevalier ! Je t'attendais.",
+                "La situation est grave. Une armée de l'ombre approche.",
+                "Notre seul espoir est l'épée légendaire du roi Aldric.",
+                "Elle a été brisée en trois fragments et dissimulée dans le royaume.",
+                "Le Sage connaît les emplacements. Parle-lui en premier.",
+                "Le destin du château est entre tes mains. Ne nous déçois pas."
+            ]
         }
     ],
     "collisions": [
         {
             "id": 1,
-            "x1": 900,
-            "y1": 445,
-            "x2": 905,
-            "y2": 1000,
-            "color": "red"
+            "x1": 840,
+            "y1": 255,
+            "x2": 878,
+            "y2": 310,
+            "color": "green"
         },
         {
             "id": 2,
-            "x1": 1070,
-            "y1": 445,
-            "x2": 1075,
-            "y2": 1000,
+            "x1": 786,
+            "y1": 435,
+            "x2": 908,
+            "y2": 639,
             "color": "red"
         },
         {
             "id": 3,
-            "x1": 900,
-            "y1": 970,
-            "x2": 1075,
-            "y2": 975,
+            "x1": 1073,
+            "y1": 431,
+            "x2": 1201,
+            "y2": 651,
             "color": "red"
         },
         {
             "id": 4,
-            "x1": 1075,
-            "y1": 435,
-            "x2": 1185,
-            "y2": 440,
+            "x1": 901,
+            "y1": 648,
+            "x2": 922,
+            "y2": 999,
             "color": "red"
         },
         {
             "id": 5,
-            "x1": 825,
-            "y1": 435,
-            "x2": 900,
-            "y2": 440,
+            "x1": 1062,
+            "y1": 646,
+            "x2": 1080,
+            "y2": 969,
             "color": "red"
         },
         {
             "id": 6,
-            "x1": 840,
-            "y1": 250,
-            "x2": 875,
-            "y2": 310,
+            "x1": 893,
+            "y1": 967,
+            "x2": 1081,
+            "y2": 995,
+            "color": "red"
+        },
+        {
+            "id": 7,
+            "x1": 1176,
+            "y1": -85,
+            "x2": 1204,
+            "y2": -32,
+            "color": "red"
+        },
+        {
+            "id": 8,
+            "x1": 1175,
+            "y1": 14,
+            "x2": 1207,
+            "y2": 61,
+            "color": "red"
+        },
+        {
+            "id": 9,
+            "x1": 1176,
+            "y1": 113,
+            "x2": 1208,
+            "y2": 158,
+            "color": "red"
+        },
+        {
+            "id": 10,
+            "x1": 1176,
+            "y1": 198,
+            "x2": 1187,
+            "y2": 249,
+            "color": "red"
+        },
+        {
+            "id": 11,
+            "x1": 1175,
+            "y1": 240,
+            "x2": 1244,
+            "y2": 253,
+            "color": "red"
+        },
+        {
+            "id": 12,
+            "x1": 1310,
+            "y1": 238,
+            "x2": 1447,
+            "y2": 253,
+            "color": "red"
+        },
+        {
+            "id": 13,
+            "x1": 1429,
+            "y1": 242,
+            "x2": 1442,
+            "y2": 317,
+            "color": "red"
+        },
+        {
+            "id": 14,
+            "x1": 1835,
+            "y1": 124,
+            "x2": 1868,
+            "y2": 168,
+            "color": "green"
+        },
+        {
+            "id": 15,
+            "x1": 1495,
+            "y1": 110,
+            "x2": 2213,
+            "y2": 122,
+            "color": "red"
+        },
+        {
+            "id": 16,
+            "x1": 1494,
+            "y1": 121,
+            "x2": 1506,
+            "y2": 248,
+            "color": "red"
+        },
+        {
+            "id": 17,
+            "x1": 1624,
+            "y1": 125,
+            "x2": 1635,
+            "y2": 252,
+            "color": "red"
+        },
+        {
+            "id": 18,
+            "x1": 1616,
+            "y1": 237,
+            "x2": 1643,
+            "y2": 252,
+            "color": "red"
+        },
+        {
+            "id": 19,
+            "x1": 1499,
+            "y1": 239,
+            "x2": 1553,
+            "y2": 253,
+            "color": "red"
+        },
+        {
+            "id": 20,
+            "x1": 1709,
+            "y1": 239,
+            "x2": 1810,
+            "y2": 253,
+            "color": "red"
+        },
+        {
+            "id": 21,
+            "x1": 1751,
+            "y1": 123,
+            "x2": 1763,
+            "y2": 238,
+            "color": "red"
+        },
+        {
+            "id": 22,
+            "x1": 2187,
+            "y1": -688,
+            "x2": 2222,
+            "y2": -632,
+            "color": "green"
+        },
+        {
+            "id": 23,
+            "x1": 2214,
+            "y1": -1569,
+            "x2": 2246,
+            "y2": -1518,
             "color": "green"
         }
     ],
-    "playtime": 76
+    "quetes_completees": [
+        1,
+        5,
+        4,
+        3
+    ],
+    "playtime": 119
 }
