@@ -5,7 +5,7 @@
             "id_collision": 6,
             "dialogue": [
                 "Alors....",
-                "Je m'apell...."
+                "Je m'apelle...."
             ]
         },
         {
@@ -65,5 +65,5 @@
             "color": "green"
         }
     ],
-    "playtime": 73
+    "playtime": 76
 }
