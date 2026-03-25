@@ -6,6 +6,7 @@
             "title": "Rencontre avec le Sage",
             "description": "Parler au sage dans la tour nord du château",
             "speaker": "Le Sage",
+            "reward_gold": 20,
             "dialogue": [
                 "Ah... enfin tu arrives, jeune chevalier.",
                 "Je t'attendais depuis bien longtemps.",
@@ -26,8 +27,9 @@
             "title": "La Sentinelle",
             "description": "Parler au garde se reposant dans sa chambre",
             "speaker": "Garde",
+            "reward_gold": 15,
             "dialogue": [
-                "Halte ! Qui va là ?",
+                "Halte ! Qui va là ?",
                 "Ah... c'est toi, le nouveau chevalier. Le roi t'attendait.",
                 "Le Capitaine est au nord du château. Il a des ordres urgents pour toi.",
                 "Et méfie-toi des ruelles sombres... des ombres rôdent."
@@ -39,6 +41,7 @@
             "title": "La Forge du Destin",
             "description": "Interroger le forgeron sur les fragments de l'épée",
             "speaker": "Le Forgeron",
+            "reward_gold": 25,
             "dialogue": [
                 "Bienvenue dans ma forge, jeune chevalier.",
                 "J'ai entendu dire que tu cherches les fragments de l'épée du roi Aldric.",
@@ -53,8 +56,9 @@
             "title": "Rumeurs et Secrets",
             "description": "Écouter ce que le marchand a à dire",
             "speaker": "Le Marchand",
+            "reward_gold": 10,
             "dialogue": [
-                "Psst ! Par ici, chevalier...",
+                "Psst ! Par ici, chevalier...",
                 "J'ai des informations qui pourraient t'intéresser.",
                 "Un voyageur m'a parlé d'un fragment caché dans une crypte ancienne.",
                 "Il paraît qu'une inscription sur les murs indique le chemin.",
@@ -63,17 +67,51 @@
         },
         {
             "id": 6,
-            "id_collision": false,
+            "id_collision": 24,
             "title": "Les Ordres du Capitaine",
             "description": "Recevoir ta mission du Capitaine de la garde",
             "speaker": "Capitaine Valdric",
+            "reward_gold": 30,
             "dialogue": [
-                "Chevalier ! Je t'attendais.",
+                "Chevalier ! Je t'attendais.",
                 "La situation est grave. Une armée de l'ombre approche.",
                 "Notre seul espoir est l'épée légendaire du roi Aldric.",
-                "Elle a été brisée en trois fragments et dissimulée dans le royaume.",
+                "Elle a été brisée en trois fragments et dissimu lée dans le royaume.",
                 "Le Sage connaît les emplacements. Parle-lui en premier.",
                 "Le destin du château est entre tes mains. Ne nous déçois pas."
+            ]
+        },
+        {
+            "id": 7,
+            "id_collision": 25,
+            "title": "La Bibliothécaire",
+            "description": "Consulter Dame Élara dans la bibliothèque du château",
+            "speaker": "Dame Élara",
+            "reward_gold": 20,
+            "dialogue": [
+                "Ah, un visiteur dans ma bibliothèque... c'est rare par ici.",
+                "Tu cherches les fragments de l'épée d'Aldric, n'est-ce pas ?",
+                "Les anciens textes mentionnent une crypte sous la forêt de l'est.",
+                "Un fragment y serait gardé par un esprit ancien.",
+                "Prends garde... les gardiens de ces lieux ne sont pas de simples ombres.",
+                "Consulte cette carte — elle t'indiquera le chemin vers la crypte."
+            ]
+        },
+        {
+            "id": 8,
+            "id_collision": 26,
+            "title": "L'Ermite du Puits",
+            "description": "Trouver le vieil ermite qui garde le puits ancestral",
+            "speaker": "L'Ermite",
+            "reward_gold": 35,
+            "dialogue": [
+                "Hm… un chevalier. Voilà longtemps que je n'avais vu âme qui vive.",
+                "Ce puits est ancien, aussi vieux que le royaume lui-même.",
+                "On dit que ses eaux peuvent révéler la position des artefacts perdus.",
+                "Mais le deuxième fragment de l'épée... c'est une autre histoire.",
+                "Il est gardé par une enti té que les mots ne peuvent décrire.",
+                "Sois fort, chevalier. Le royaume compte sur toi.",
+                "Prends ceci — c'est tout ce que je peux t'offrir."
             ]
         }
     ],
@@ -261,13 +299,56 @@
             "x2": 2246,
             "y2": -1518,
             "color": "green"
+        },
+        {
+            "id": 24,
+            "x1": 1760,
+            "y1": 148,
+            "x2": 1808,
+            "y2": 200,
+            "color": "green"
+        },
+        {
+            "id": 25,
+            "x1": 580,
+            "y1": -660,
+            "x2": 628,
+            "y2": -608,
+            "color": "green"
+        },
+        {
+            "id": 26,
+            "x1": 430,
+            "y1": -580,
+            "x2": 478,
+            "y2": -534,
+            "color": "green"
+        },
+        {
+            "id": 27,
+            "x1": 962,
+            "y1": 800,
+            "x2": 1040,
+            "y2": 840,
+            "color": "orange"
+        },
+        {
+            "id": 28,
+            "x1": 1380,
+            "y1": 242,
+            "x2": 1428,
+            "y2": 252,
+            "color": "orange"
         }
     ],
     "quetes_completees": [
         1,
         5,
         4,
-        3
+        3,
+        6,
+        8,
+        7
     ],
-    "playtime": 119
+    "playtime": 121
 }

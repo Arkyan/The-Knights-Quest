@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 24" width="80" height="24">
+  <defs>
+    <linearGradient id="blade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#aac8e0"/>
+      <stop offset="40%" stop-color="#e8f4ff"/>
+      <stop offset="70%" stop-color="#c0d8f0"/>
+      <stop offset="100%" stop-color="#607888"/>
+    </linearGradient>
+    <linearGradient id="handle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8b5e2a"/>
+      <stop offset="100%" stop-color="#4a2e10"/>
+    </linearGradient>
+  </defs>
+  <!-- Blade -->
+  <polygon points="6,12 70,10 78,12 70,14" fill="url(#blade)" stroke="#8899aa" stroke-width="0.5"/>
+  <line x1="6" y1="12" x2="75" y2="12" stroke="white" stroke-width="0.5" opacity="0.4"/>
+  <!-- Crossguard -->
+  <rect x="4" y="5" width="6" height="14" rx="1.5" fill="#aaa080" stroke="#888060" stroke-width="0.8"/>
+  <!-- Handle -->
+  <rect x="0" y="9" width="6" height="6" rx="1" fill="url(#handle)" stroke="#3a1e08" stroke-width="0.5"/>
+  <!-- Pommel -->
+  <circle cx="1.5" cy="12" r="2.5" fill="#cc9a30" stroke="#886600" stroke-width="0.5"/>
+  <!-- Blade shine -->
+  <line x1="10" y1="10.5" x2="68" y2="10.5" stroke="white" stroke-width="0.8" opacity="0.3"/>
+</svg>

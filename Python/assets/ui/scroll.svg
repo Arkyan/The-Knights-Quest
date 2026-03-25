@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 40" width="32" height="40">
+  <defs>
+    <linearGradient id="parchment" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5e6c0"/>
+      <stop offset="100%" stop-color="#d4b880"/>
+    </linearGradient>
+    <linearGradient id="roll" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c8a860"/>
+      <stop offset="50%" stop-color="#e8cc90"/>
+      <stop offset="100%" stop-color="#c8a860"/>
+    </linearGradient>
+  </defs>
+  <!-- Top roll -->
+  <ellipse cx="16" cy="5" rx="14" ry="4.5" fill="url(#roll)" stroke="#9a7840" stroke-width="0.8"/>
+  <!-- Bottom roll -->
+  <ellipse cx="16" cy="35" rx="14" ry="4.5" fill="url(#roll)" stroke="#9a7840" stroke-width="0.8"/>
+  <!-- Parchment body -->
+  <rect x="2" y="5" width="28" height="30" fill="url(#parchment)" stroke="#b09050" stroke-width="0.5"/>
+  <!-- Text lines (decorative) -->
+  <line x1="7" y1="12" x2="25" y2="12" stroke="#8b6020" stroke-width="1" opacity="0.5"/>
+  <line x1="7" y1="17" x2="25" y2="17" stroke="#8b6020" stroke-width="1" opacity="0.5"/>
+  <line x1="7" y1="22" x2="25" y2="22" stroke="#8b6020" stroke-width="1" opacity="0.5"/>
+  <line x1="7" y1="27" x2="20" y2="27" stroke="#8b6020" stroke-width="1" opacity="0.5"/>
+  <!-- Roll highlights -->
+  <ellipse cx="16" cy="4" rx="10" ry="2" fill="white" opacity="0.2"/>
+</svg>
